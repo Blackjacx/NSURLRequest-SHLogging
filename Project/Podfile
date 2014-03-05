@@ -1,0 +1,7 @@
+pod "NSURLRequestLogger", :path => "../NSURLRequestLogger.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end

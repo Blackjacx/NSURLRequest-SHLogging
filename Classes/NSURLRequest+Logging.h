@@ -1,5 +1,5 @@
 //
-//  NSURLRequestLogger.h
+//  NSURLRequest+Logging.h
 //  NSURLRequestLogger
 //
 //  Created by Stefan Herold on 05/03/14.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSURLRequestLogger : NSObject
+@interface NSURLRequest (Logging)
+
+- (NSString *)extendedDescription;
 
 @end

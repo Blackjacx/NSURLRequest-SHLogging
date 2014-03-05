@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B99FEB1E18C72C63005D3F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99FEB1D18C72C63005D3F1B /* Foundation.framework */; };
-		B99FEB2318C72C63005D3F1B /* NSURLRequestLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B99FEB2218C72C63005D3F1B /* NSURLRequestLogger.h */; };
-		B99FEB2518C72C63005D3F1B /* NSURLRequestLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B99FEB2418C72C63005D3F1B /* NSURLRequestLogger.m */; };
 		B99FEB2C18C72C63005D3F1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99FEB2B18C72C63005D3F1B /* XCTest.framework */; };
 		B99FEB2D18C72C63005D3F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99FEB1D18C72C63005D3F1B /* Foundation.framework */; };
 		B99FEB2F18C72C63005D3F1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99FEB2E18C72C63005D3F1B /* UIKit.framework */; };
 		B99FEB3218C72C63005D3F1B /* libNSURLRequestLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B99FEB1A18C72C63005D3F1B /* libNSURLRequestLogger.a */; };
 		B99FEB3818C72C63005D3F1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B99FEB3618C72C63005D3F1B /* InfoPlist.strings */; };
 		B99FEB3A18C72C63005D3F1B /* NSURLRequestLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99FEB3918C72C63005D3F1B /* NSURLRequestLoggerTests.m */; };
+		B99FEB4D18C7304A005D3F1B /* NSURLRequest+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = B99FEB4B18C7304A005D3F1B /* NSURLRequest+Logging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				B99FEB2318C72C63005D3F1B /* NSURLRequestLogger.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,15 +42,16 @@
 /* Begin PBXFileReference section */
 		B99FEB1A18C72C63005D3F1B /* libNSURLRequestLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSURLRequestLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99FEB1D18C72C63005D3F1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B99FEB2118C72C63005D3F1B /* NSURLRequestLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLRequestLogger-Prefix.pch"; sourceTree = "<group>"; };
-		B99FEB2218C72C63005D3F1B /* NSURLRequestLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLRequestLogger.h; sourceTree = "<group>"; };
-		B99FEB2418C72C63005D3F1B /* NSURLRequestLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLRequestLogger.m; sourceTree = "<group>"; };
 		B99FEB2A18C72C63005D3F1B /* NSURLRequestLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLRequestLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99FEB2B18C72C63005D3F1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B99FEB2E18C72C63005D3F1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B99FEB3518C72C63005D3F1B /* NSURLRequestLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSURLRequestLoggerTests-Info.plist"; sourceTree = "<group>"; };
 		B99FEB3718C72C63005D3F1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B99FEB3918C72C63005D3F1B /* NSURLRequestLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLRequestLoggerTests.m; sourceTree = "<group>"; };
+		B99FEB4918C72FB3005D3F1B /* NSURLRequestLogger.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSURLRequestLogger.podspec; sourceTree = "<group>"; };
+		B99FEB4A18C7304A005D3F1B /* NSURLRequest+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+Logging.h"; path = "Classes/NSURLRequest+Logging.h"; sourceTree = SOURCE_ROOT; };
+		B99FEB4B18C7304A005D3F1B /* NSURLRequest+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+Logging.m"; path = "Classes/NSURLRequest+Logging.m"; sourceTree = SOURCE_ROOT; };
+		B99FEB4C18C7304A005D3F1B /* NSURLRequestLogger-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequestLogger-Prefix.pch"; path = "Classes/NSURLRequestLogger-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +82,7 @@
 			children = (
 				B99FEB1F18C72C63005D3F1B /* NSURLRequestLogger */,
 				B99FEB3318C72C63005D3F1B /* NSURLRequestLoggerTests */,
+				B99FEB4818C72F89005D3F1B /* Pods */,
 				B99FEB1C18C72C63005D3F1B /* Frameworks */,
 				B99FEB1B18C72C63005D3F1B /* Products */,
 			);
@@ -110,8 +110,8 @@
 		B99FEB1F18C72C63005D3F1B /* NSURLRequestLogger */ = {
 			isa = PBXGroup;
 			children = (
-				B99FEB2218C72C63005D3F1B /* NSURLRequestLogger.h */,
-				B99FEB2418C72C63005D3F1B /* NSURLRequestLogger.m */,
+				B99FEB4A18C7304A005D3F1B /* NSURLRequest+Logging.h */,
+				B99FEB4B18C7304A005D3F1B /* NSURLRequest+Logging.m */,
 				B99FEB2018C72C63005D3F1B /* Supporting Files */,
 			);
 			path = NSURLRequestLogger;
@@ -120,7 +120,7 @@
 		B99FEB2018C72C63005D3F1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B99FEB2118C72C63005D3F1B /* NSURLRequestLogger-Prefix.pch */,
+				B99FEB4C18C7304A005D3F1B /* NSURLRequestLogger-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +141,14 @@
 				B99FEB3618C72C63005D3F1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99FEB4818C72F89005D3F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B99FEB4918C72FB3005D3F1B /* NSURLRequestLogger.podspec */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B99FEB2518C72C63005D3F1B /* NSURLRequestLogger.m in Sources */,
+				B99FEB4D18C7304A005D3F1B /* NSURLRequest+Logging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = 0.1.0;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -289,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -312,6 +322,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = 0.1.0;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -320,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -331,7 +343,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/NSURLRequestLogger.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSURLRequestLogger/NSURLRequestLogger-Prefix.pch";
+				GCC_PREFIX_HEADER = "Classes/NSURLRequestLogger-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -343,7 +355,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/NSURLRequestLogger.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSURLRequestLogger/NSURLRequestLogger-Prefix.pch";
+				GCC_PREFIX_HEADER = "Classes/NSURLRequestLogger-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
