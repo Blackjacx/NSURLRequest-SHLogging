@@ -11,28 +11,18 @@
 @implementation NSURLRequest (Logging)
 
 - (NSString *)extendedDescription {
-	NSMutableString * const mutableResult = [NSMutableString stringWithFormat:@"%@\n", [self description]];
+	NSMutableString * const mutableResult = [NSMutableString stringWithFormat:@"NSURLRequest - %@ : %@ (%.1fs)\n", self.HTTPMethod, self.URL, self.timeoutInterval];
 	
 	// Add header fields.
-	NSDictionary * const HTTPHeaderFields = [self allHTTPHeaderFields];
-	NSArray * const fieldNames = [HTTPHeaderFields allKeys];
-	
-	for ( NSString *fieldName in fieldNames ) {
-		[mutableResult appendFormat:@"%@ = %@\n", fieldName, HTTPHeaderFields[fieldName]];
-	}
-	
-	[mutableResult appendFormat:@"\n HTTP Method is %@", [self HTTPMethod]];
+	[self.allHTTPHeaderFields enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+		[mutableResult appendFormat:@"\n%@ : %@", key, obj];
+	}];
 	
 	if( [self HTTPBody] ) {
 		NSString *sBody = [[NSString alloc] initWithData:[self HTTPBody] encoding:NSASCIIStringEncoding];
-		[mutableResult appendFormat:@"\n HTTP Body is %@", sBody];
+		[mutableResult appendFormat:@"\n\nHTTP BODY:\n%@", sBody];
 	}
-	
-	NSString *result = [NSString stringWithFormat:@"-[%@ %@]: Request is %@",
-						NSStringFromClass( [self class] ),
-						NSStringFromSelector( _cmd ),
-						mutableResult];
-	return result;
+	return [mutableResult copy];
 }
 
 - (NSString *)debugDescription {
