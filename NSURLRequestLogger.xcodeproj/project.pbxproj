@@ -283,8 +283,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -322,8 +322,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -417,6 +417,7 @@
 				B99FEB3F18C72C63005D3F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B99FEB4018C72C63005D3F1B /* Build configuration list for PBXNativeTarget "NSURLRequestLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				B99FEB4218C72C63005D3F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
