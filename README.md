@@ -1,4 +1,4 @@
-# NSURLRequestLogger
+# NSURLRequest+SHLogging
 
 Simple category for logging all details of a NSURLRequest.
 
@@ -13,12 +13,12 @@ To run the example project; clone the repo, and run `pod install` from the Proje
 
 ## Installation
 
-NSURLRequestLogger is available through [CocoaPods](http://cocoapods.org), to install
+NSURLRequest+SHLogging is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod "NSURLRequestLogger"
+    pod "NSURLRequest+SHLogging"
 
 ## License
 
-NSURLRequestLogger is available under the MIT license. See the LICENSE file for more info.
+NSURLRequest+SHLogging is available under the MIT license. See the LICENSE file for more info.
 
