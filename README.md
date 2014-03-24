@@ -2,8 +2,8 @@
 
 Simple category for logging all details of a NSURLRequest.
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/NSURLRequestLogger/badge.png)](http://cocoadocs.org/docsets/NSURLRequestLogger)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/NSURLRequestLogger/badge.png)](http://cocoadocs.org/docsets/NSURLRequestLogger)
+[![Version](http://cocoapod-badges.herokuapp.com/v/NSURLRequestLogger/badge.png)](http://cocoadocs.org/docsets/NSURLRequest+SHLogging)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/NSURLRequestLogger/badge.png)](http://cocoadocs.org/docsets/NSURLRequest+SHLogging)
 
 ## Usage
 
