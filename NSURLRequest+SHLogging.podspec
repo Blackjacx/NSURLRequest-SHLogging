@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NSURLRequest+SHLogging"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "Simple category for logging details of a NSURLRequest."
   s.homepage         = "https://github.com/Blackjacx/NSURLRequest-SHLogging"
   s.license          = 'MIT'
