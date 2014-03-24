@@ -1,14 +1,14 @@
 //
-//  NSURLRequest+Logging.h
-//  NSURLRequestLogger
+//  NSURLRequest+SHLogging.h
+//  NSURLRequest+SHLogging
 //
 //  Created by Stefan Herold on 05/03/14.
-//  Copyright (c) 2014 blackjacx. All rights reserved.
+//  Copyright (c) 2014 Stefan Herold. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSURLRequest (Logging)
+@interface NSURLRequest (SHLogging)
 
 - (NSString *)extendedDescription;
 

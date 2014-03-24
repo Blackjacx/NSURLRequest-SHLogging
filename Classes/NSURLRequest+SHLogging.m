@@ -1,14 +1,14 @@
 //
-//  NSURLRequest+Logging.m
-//  NSURLRequestLogger
+//  NSURLRequest+SHLogging.m
+//  NSURLRequest+SHLogging
 //
 //  Created by Stefan Herold on 05/03/14.
-//  Copyright (c) 2014 blackjacx. All rights reserved.
+//  Copyright (c) 2014 Stefan Herold. All rights reserved.
 //
 
 #import "NSURLRequest+SHLogging.h"
 
-@implementation NSURLRequest (Logging)
+@implementation NSURLRequest (SHLogging)
 
 - (NSString *)extendedDescription {
 	NSMutableString * const mutableResult = [NSMutableString stringWithFormat:@"NSURLRequest - %@ : %@ (%.1fs)\n", self.HTTPMethod, self.URL, self.timeoutInterval];

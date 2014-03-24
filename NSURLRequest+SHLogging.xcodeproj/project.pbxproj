@@ -28,9 +28,6 @@
 		B99FEB1D18C72C63005D3F1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B99FEB2B18C72C63005D3F1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B99FEB2E18C72C63005D3F1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B99FEB3518C72C63005D3F1B /* NSURLRequest+SHLoggingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSURLRequest+SHLoggingTests-Info.plist"; sourceTree = "<group>"; };
-		B99FEB3718C72C63005D3F1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B99FEB3918C72C63005D3F1B /* NSURLRequestLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLRequestLoggerTests.m; sourceTree = "<group>"; };
 		B99FEB4918C72FB3005D3F1B /* NSURLRequest+SHLogging.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSURLRequest+SHLogging.podspec"; sourceTree = "<group>"; };
 		B99FEB4A18C7304A005D3F1B /* NSURLRequest+SHLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+SHLogging.h"; path = "Classes/NSURLRequest+SHLogging.h"; sourceTree = SOURCE_ROOT; };
 		B99FEB4B18C7304A005D3F1B /* NSURLRequest+SHLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+SHLogging.m"; path = "Classes/NSURLRequest+SHLogging.m"; sourceTree = SOURCE_ROOT; };
@@ -53,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				B99FEB1F18C72C63005D3F1B /* NSURLRequest+SHLogging */,
-				B99FEB3318C72C63005D3F1B /* NSURLRequest+SHLoggingTests */,
 				B99FEB4818C72F89005D3F1B /* Pods */,
 				B99FEB1C18C72C63005D3F1B /* Frameworks */,
 				B99FEB1B18C72C63005D3F1B /* Products */,
@@ -93,25 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				B99FEB4C18C7304A005D3F1B /* NSURLRequest+SHLogging-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B99FEB3318C72C63005D3F1B /* NSURLRequest+SHLoggingTests */ = {
-			isa = PBXGroup;
-			children = (
-				B99FEB3918C72C63005D3F1B /* NSURLRequestLoggerTests.m */,
-				B99FEB3418C72C63005D3F1B /* Supporting Files */,
-			);
-			name = "NSURLRequest+SHLoggingTests";
-			path = NSURLRequestLoggerTests;
-			sourceTree = "<group>";
-		};
-		B99FEB3418C72C63005D3F1B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B99FEB3518C72C63005D3F1B /* NSURLRequest+SHLoggingTests-Info.plist */,
-				B99FEB3618C72C63005D3F1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,17 +157,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B99FEB3618C72C63005D3F1B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B99FEB3718C72C63005D3F1B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B99FEB3B18C72C63005D3F1B /* Debug */ = {
