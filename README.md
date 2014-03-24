@@ -1,10 +1,12 @@
 # NSURLRequest+SHLogging
 
-Simple category for logging all details of a NSURLRequest.
-
 ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png) &nbsp;
 ![Version](http://cocoapod-badges.herokuapp.com/v/NSURLRequest+SHLogging/badge.png) &nbsp;
 ![Platform](http://cocoapod-badges.herokuapp.com/p/NSURLRequest+SHLogging/badge.png) &nbsp;
+
+## Description
+
+Simple category for logging all details of a NSURLRequest.
 
 ## Usage
 
