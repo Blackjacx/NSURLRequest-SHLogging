@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NSURLRequestLogger.xcodeproj">
+      location = "self:NSURLRequest+SHLogging.xcodeproj">
    </FileRef>
 </Workspace>

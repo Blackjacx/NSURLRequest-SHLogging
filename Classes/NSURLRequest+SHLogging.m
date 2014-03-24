@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 blackjacx. All rights reserved.
 //
 
-#import "NSURLRequest+Logging.h"
+#import "NSURLRequest+SHLogging.h"
 
 @implementation NSURLRequest (Logging)
 
