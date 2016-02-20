@@ -6,7 +6,7 @@
 
 ## Description
 
-Simple category for logging all details of a NSURLRequest.
+Your dev ops ask you to provide some detail for failing requests? Take a look at this simple category for logging all details of a NSURLRequest. They will be thankful and you'll solve problems much faster!
 
 ## Usage
 
